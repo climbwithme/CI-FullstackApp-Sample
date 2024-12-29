@@ -1,7 +1,9 @@
 {
     "env": {
-      "browser": true,
-      "es2021": true
+      "browser": false,
+      "node": true, // Enable Node.js global variables like 'require' and 'module'
+      "es2021": true,
+      "mocha": true // Add this if you're using Mocha for testing
     },
     "extends": "eslint:recommended",
     "parserOptions": {
